@@ -1,7 +1,22 @@
 {% extends "base.html" %}
 {% block content %}
-
-    {{ company }}
     <h1>{{ page_title }} <br><br></h1>
+    <h3>My husband Adam now works along side me and we also employ my Mum, sister, auntie, cousin and 6 other amazing staff that have made everything possible.</h3>
     
+    {% for member in company %}
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h3>{{ member.name }}</h3>
+            <p>{{ member.description }}</p>
+        </div>
+        <div class="col-md-5">
+            <img src="{{ member.image_source }}" alt="image of staff member" class="featurette-image image-responsive">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    {% endfor %}
+
 {% endblock %}
