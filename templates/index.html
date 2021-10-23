@@ -3,61 +3,41 @@
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-preview">
-                <a href="post.html">
+                <a href="{{ url_for('about') }}">
                     <h2 class="post-title">
-                        Man must explore, and this is exploration at its greatest
+                        Get to know Hannah and Adam 
                     </h2>
                     <h3 class="post-subtitle">
-                        Problems look mighty small from 150 miles up
+                        We are a self-taught cake/chocolate loving husband and wife team who run a small cake shop in Omagh, Co Tyrone. We
+                        pride ourselves as being one of the very few scratch bakeries in NI.
                     </h3>
                 </a>
-                <p class="post-meta">Posted by
-                    <a href="#">Start Bootstrap</a>
-                    on September 24, 2019</p>
+            </div>
+            <hr>
+            <div class="post-preview">
+                <a href="{{ url_for('contact') }}">
+                    <h2 class="post-title">
+                        Want to get in contact about a cake?
+                    </h2>
+                </a>
+                <p class="post-meta">For some inspiration
+                    <a href="https://www.facebook.com/pieceofcakeomagh/photos" target="_blank">click here</a>
+                    to see some of the cakes we've made.</p>
             </div>
             <hr>
             <div class="post-preview">
                 <a href="post.html">
                     <h2 class="post-title">
-                        I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
-                    </h2>
-                </a>
-                <p class="post-meta">Posted by
-                    <a href="#">Start Bootstrap</a>
-                    on September 18, 2019</p>
-            </div>
-            <hr>
-            <div class="post-preview">
-                <a href="post.html">
-                    <h2 class="post-title">
-                        Science has not yet mastered prophecy
+                        Get to know our staff!
                     </h2>
                     <h3 class="post-subtitle">
-                        We predict too much for the next year and yet far too little for the next ten.
+                        My husband Adam now works along side me and we also employ my Mum, sister, auntie, cousin and 6 other amazing staff that have made everything possible.
                     </h3>
                 </a>
-                <p class="post-meta">Posted by
-                    <a href="#">Start Bootstrap</a>
-                    on August 24, 2019</p>
             </div>
-            <hr>
-            <div class="post-preview">
-                <a href="post.html">
-                    <h2 class="post-title">
-                        Failure is not an option
-                    </h2>
-                    <h3 class="post-subtitle">
-                        Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-                    </h3>
-                </a>
-                <p class="post-meta">Posted by
-                    <a href="#">Start Bootstrap</a>
-                    on July 8, 2019</p>
-            </div>
-            <hr>
-            <!-- Pager -->
+            <!-- button to the shop -->
             <div class="clearfix">
-                <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+                <a class="btn btn-primary float-right" href="{{ url_for('shop') }}">Our Shop &rarr;</a>
             </div>
         </div>
     </div>
