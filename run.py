@@ -25,6 +25,11 @@ def contact():
     return render_template("contact.html", page_title="Contact Us")
 
 
+@app.route("/staff")
+def staff():
+    return render_template("staff.html", page_title="Get to know our staff...")
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
