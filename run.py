@@ -1,4 +1,5 @@
 import os
+import json
 from flask import Flask, render_template
 
 
@@ -27,7 +28,10 @@ def contact():
 
 @app.route("/staff")
 def staff():
-    return render_template("staff.html", page_title="Get to know our staff...")
+    data = []
+    with open("data/company.json", "r") as json_data:
+        data = json.load(json_data)
+    return render_template("staff.html", page_title="Get to know our staff...", company=data)
 
 
 if __name__ == "__main__":
