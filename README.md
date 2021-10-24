@@ -37,7 +37,19 @@ I chose a simplistic webpage design as I don't want to over complicate it.  I wa
 
 ## Features
 ### Existing Features
+* Navbar
+* Button on home page that takes user straight to the shop
+* Form to submit enquiry message
+* Images on every page to interact with users
+* Link to Facebook page
+* Links on home page so users can easily find pages with more information on them
+* Stand out headings and titles
 ### Features Left to Implement
+* Google Maps
+* A place on the webpage where users can insert their own images
+* A page that users uploads will upload automatically
+* Links to all social media accounts
+* A search bar in the navbar to users can type in what they want to find
 ## Technologies Used 
 
 ## Testing
