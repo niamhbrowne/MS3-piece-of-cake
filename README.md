@@ -58,8 +58,6 @@ For my third milestone project I used a number of technologies to assist in deve
 * I used the online tutorials as well to help find greater understanding for how the code works and how to impliment it as best as possible.
 ## Testing
 I used HTML, CSS and Javascript validators to test the coding aspect of my project and they passed for both. As for the visual aspect of the project I tested it through opening it on a web page browser and clicking on all the links in the navigation menu and reading through each section. I also inspected the code on the browser and looked at it on the IPad Pro and mobile phone devices to make sure it was working on all screen sizes. I clicked through all the links on the navigation bar to ensure there were no broken links and that external links opened on a new tab. I used the contact form to ensure it was working.
-### Bugs Discovered
-### Validation
 
 ### Deployment
 #### Gitpod 
@@ -81,9 +79,25 @@ Steps I used on Heroku to deploy my webpage:
 * Re-freshed the browser to make sure it had deployed correctly
  
 ## Credits
+
 ### Dependencies 
-Flask
+* Flask
+* Gitpod
+* GitHub
+* Heroku
+* Bootstrap
 ### Code
+1. <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>
+2. <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/" target="_blank">Bootstrap</a>
+3. <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+4. <a href="https://dashboard.heroku.com/apps/piece-of-cake-omagh/settings" target="_blank">Heroku</a>
 ### Where I got my content from
+* Piece of Cake Omagh 
 ### Acknowledgement 
 Below are links to where I found inspiration and where I sourced code.
+
+1. <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>
+2. <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/" target="_blank">Bootstrap</a>
+3. <a href="https://www.pieceofcakeomagh.co.uk/" target="_blank">Piece of Cake</a>
+4. <a href="https://dashboard.heroku.com/apps/piece-of-cake-omagh/settings" target="_blank">Heroku</a>
+3. <a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/courseware/ec081e87b3ea48ef986a7bd33f66e3b2/f5dff185642542618202d15605034feb/?child=first" target="_blank">Code Institute walkthrough project</a>
