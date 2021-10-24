@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
 .col-md-5 img {
     width: 100%;
+}
+
+.thumbnail {
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.thumbnail h4 {
+font-family: 'Oswald', sans-serif;
+text-align: center;
+letter-spacing: 3px;
+color: #5c5c6a;
 }
