@@ -51,21 +51,34 @@ I chose a simplistic webpage design as I don't want to over complicate it.  I wa
 * Links to all social media accounts
 * A search bar in the navbar to users can type in what they want to find
 ## Technologies Used 
+For my third milestone project I used a number of technologies to assist in developing my website which I have listed below.
 
+* I used Bootstrap throughout the project to create, the navbar, background image for the page header and the form for users to submit their own recipes.
+* I used the google search engine to help me solve problems with my code, find inspiration for the design on the website through looking at other online cake shops sites and to find out how to code certain aspects as well.
+* I used the online tutorials as well to help find greater understanding for how the code works and how to impliment it as best as possible.
 ## Testing
-### Testing against user stories
-#### Home
-#### About
-#### Contact Us
-#### Shop 
-#### About Staff
-### Supported Screens and Browsers
+I used HTML, CSS and Javascript validators to test the coding aspect of my project and they passed for both. As for the visual aspect of the project I tested it through opening it on a web page browser and clicking on all the links in the navigation menu and reading through each section. I also inspected the code on the browser and looked at it on the IPad Pro and mobile phone devices to make sure it was working on all screen sizes. I clicked through all the links on the navigation bar to ensure there were no broken links and that external links opened on a new tab. I used the contact form to ensure it was working.
 ### Bugs Discovered
 ### Validation
+
 ### Deployment
 #### Gitpod 
+Steps I used on Gitpod to deploy my webpage:
+
+* I used clear and concise commits throughout the development of the webpage
+* I used git add to save the files
+* I used Git push to push the code to Github
 #### GitHub
+Steps I used on Github to deploy my webpage:
+
+* I created a Github repository for the project
 #### Heroku
+Steps I used on Heroku to deploy my webpage:
+
+* Created an account
+* Pushed the code in the terminal to Heroku
+* Deployed app on Heroku 
+* Re-freshed the browser to make sure it had deployed correctly
  
 ## Credits
 ### Dependencies 
