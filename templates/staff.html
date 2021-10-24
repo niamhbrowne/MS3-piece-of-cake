@@ -1,8 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
     <h1>{{ page_title }} <br><br></h1>
-    <h3>My husband Adam now works along side me and we also employ my Mum, sister, auntie, cousin and 6 other amazing staff that have made everything possible.</h3>
-    
+    <div class="row featurette">
+        <div class="col-md-5">
+            <img src="https://scontent.fgla3-1.fna.fbcdn.net/v/t1.6435-9/228841069_5942093435865242_1343811324445498808_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=a26aad&_nc_ohc=OJAqY7xJn1sAX_wDLN7&_nc_ht=scontent.fgla3-1.fna&oh=ce2026341d64c05338ff7bf7896e7f16&oe=619BB4E2" alt="image of all staff together for staff night out." class="featurette-image image-responsive">
+        </div>
+        <div class="col-md-7">
+            <h3>My husband Adam now works along side me and we also employ my Mum, sister, auntie, cousin and 6 other amazing staff that have made everything possible.<br><br>Looking back it was one thing ‘running’ a business with just Adam and I, I had no idea how different it would be with staff as well, it’s a whole different ball game, I find it so strange that I’m only 26 and have 10 people working with us, we really couldn’t have done all this without everyone!</h3>
+        </div>   
+    </div>
+
+        <hr class="featurette-divider">
+
     {% for member in company %}
 
     <div class="row featurette">
