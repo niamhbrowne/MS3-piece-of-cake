@@ -2,7 +2,7 @@
 {% block content %}
     <h1>{{ page_title }} <br></h1>
 
-<!---------------------------------------------------Contact Us form (followed Flask Framework tutorials)-->
+<!---------------------------------------------------Contact Us form pop up message for when the form has been successfully sent(followed Flask Framework tutorials)-->
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
 
@@ -15,7 +15,7 @@
                     </ul>
                 {% endif %}
             {% endwith %}
-
+<!---------------------------------------------------Contact Us message explaining what the form is for (followed Flask Framework tutorials)-->
             <p>Want to order a cake or have a general question? Fill out the form below to send me an email and I'll try to get back to you as soon as possible! <br><br> Thanks, Hannah.</p>
             <form method="POST" name="sentMessage" id="contactForm" novalidate>
                 <div class="control-group">
@@ -52,6 +52,7 @@
                 </div>
                 <br>
                 <div id="success"></div>
+<!---------------------------------------------------Send message button-->
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
                 </div>

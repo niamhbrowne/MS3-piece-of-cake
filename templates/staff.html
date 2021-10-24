@@ -13,9 +13,9 @@
         <hr class="featurette-divider">
 
     {% for member in company %}
-
+<!---------------------------------------------------About our staff -- company.json (followed Flask Framework tutorials)-->
     <div class="row featurette">
-
+<!---------------------------------------------------Half to the right of the screen-->
         {% if loop.index %2 !=0 %}
 
             <div class="col-md-7">
@@ -27,7 +27,7 @@
             </div>
         
         {% else %}
-
+<!---------------------------------------------------Half to the left of the screen-->
             <div class="col-md-5">
                 <img src="{{ member.image_source }}" alt="image of staff member" class="featurette-image image-responsive">
             </div>
@@ -38,7 +38,7 @@
         
         {% endif %}
     </div>
-
+<!---------------------------------------------------Dividers between each staff member to add structure to the web page-->
         {% if loop.index != 13 %}
 
             <hr class="featurette-divider">
